@@ -1,0 +1,15 @@
+[2026-02-23T15:13:32] INVALID INPUT: "Bad Book:Someone:123ABC4567890:2" - InvalidISBNException: ISBN must contain exactly 13 digits.
+[2026-02-23T15:23:03] INVALID INPUT: "Bad Book:Someone:123ABC4567890:2" - InvalidISBNException: ISBN must contain exactly 13 digits.
+[2026-02-23T15:24:06] INVALID INPUT: "Bad Book:Someone:123ABC4567890:2" - InvalidISBNException: ISBN must contain exactly 13 digits.
+[2026-02-23T15:40:44] INVALID INPUT: "Broken Book:Author:9780136042594:" - MalformedBookEntryException: Copies must be a valid integer.
+[2026-02-23T15:47:01] INVALID INPUT: "Broken Book:Author:9780136042594" - MalformedBookEntryException: New book record must be: title:author:isbn:copies
+[2026-02-23T15:49:21] INVALID INPUT: "Zero Copies Book:Author:9780136042594:0" - MalformedBookEntryException: Copies must be a positive integer greater than zero.
+[2026-02-23T15:52:24] INVALID INPUT: "9780136042594" - DuplicateISBNException: More than one book found with ISBN: 9780136042594
+[2026-02-23T15:55:16] INVALID LINE: "Broken Line:Someone:ABC123:2" - InvalidISBNException: ISBN must contain exactly 13 digits.
+[2026-02-23T15:58:15] INVALID LINE: "Broken Line:Someone:ABC123:2" - InvalidISBNException: ISBN must contain exactly 13 digits.
+[2026-02-23T16:00:35] INVALID LINE: "Broken Book:John Smith:123ABC4567890:3" - InvalidISBNException: ISBN must contain exactly 13 digits.
+[2026-02-23T16:01:14] INVALID LINE: "Broken Book:John Smith:123ABC4567890:3" - InvalidISBNException: ISBN must contain exactly 13 digits.
+[2026-02-23T16:28:12] INVALID INPUT: "Clean" - InvalidFileNameException: Catalog file must end with .txt
+[2026-02-23T16:30:43] INVALID INPUT: "NO ARGUMENTS" - InsufficientArgumentsException: You must provide 2 arguments: <catalogFile.txt> <operation>
+[2026-02-23T16:33:34] INVALID INPUT: "catalog.pdf" - InvalidFileNameException: Catalog file must end with .txt
+[2026-02-23T17:12:36] INVALID INPUT: "NO ARGUMENTS" - InsufficientArgumentsException: You must provide 2 arguments: <catalogFile.txt> <operation>
